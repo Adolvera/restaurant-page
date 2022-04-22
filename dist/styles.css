@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans:wght@400;700&display=swap');
+
+:root {
+  --dark-green: #373d20;
+  --light-green: #717744;
+  --light-tan: #abac7f;
+  --white: #fefefe;
+  --black: #080808;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", "Times New Roman", sans-serif;
+  color: var(--black);
+}
+
+header {
+  background-color: var(--light-green);
+  padding: 10px 0;
+}
+
+button {
+  border: none;
+  background-color: var(--light-green);
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+header h1 {
+  font-family: "Lobster", "Work Sans", "Times New Roman", sans-serif;
+  font-size: 4em;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.border {
+  background-color: var(--black);
+  width: 43vw;
+  height: 220px;
+  margin: 20px auto;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 30%, 100% 70%, 80% 100%, 20% 100%, 0% 70%, 0% 30%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  background-color: var(--dark-green);
+  width: 40vw;
+  margin: 20px auto;
+  padding: 20px 0;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 30%, 100% 70%, 80% 100%, 20% 100%, 0% 70%, 0% 30%);
+  height: 200px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+#main-content {
+  background: url('../img/restaurant-background.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+#tabs {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.on {
+  border-bottom: 3px solid var(--black);
+}
+
+.on:hover {
+  cursor: default;
+}
+
+.grid-item {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item img {
+  width: 200px;
+  height: auto;
+  border: 5px solid var(--black);
+}
+
+.grid-item h2 {
+  color: var(--white);
+  font-family: "Lobster", "Work Sans", "Times New Roman", sans-serif;
+}
+
+.grid-item p {
+  color: var(--white);
+  font-weight: 700;
+}
+
+.contact img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid var(--black);
+}
+
+.contact-border {
+  width: 63vw;
+  height: auto;
+}
+
+.contact {
+  height: auto;
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info h1 {
+  color: var(--white);
+  font-weight: 700;
+}
+
+.info p {
+  color: var(--white);
+  font-size: 1.3em;
+}
+
+#promo-border {
+  width: 53vw;
+  height: 320px;
+}
+
+#promo {
+  width: 50vw;
+  height: 300px;
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 20px;
+}
+
+#promo p {
+  width: 60%;
+  margin: 0 auto;
+  color: #dbdbdb;
+  font-size: 1.1em;
+}
+
+#promo p:last-child {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+#location h2 {
+  color: var(--white);
+  font-size: 2em;
+}
+
+#location p {
+  color: var(--white);
+  font-size: 1.3em;
+}
+
+#hour-border {
+  height: 270px;
+}
+
+#hours {
+  height: 250px;
+}
+
+#hours h2 {
+  color: var(--white);
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+
+#hours p {
+  color: var(--white);
+  font-size: 1.2em;
+}
+
+#group-photo {
+  width: 440px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 10px solid var(--black);
+}
+
+#map-photo {
+  width: 480px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
+#menu-title-border {
+  height: 120px;
+}
+
+#menu-title {
+  height: 100px;
+  align-content: center;
+}
+
+#contact-title-border {
+  height: 120px;
+}
+
+#contact-title {
+  height: 100px;
+  align-content: center;
+}
+
+#contact-title h1 {
+  color: var(--white);
+  font-family: "Lobster", "Works Sans", "Times New Roman", sans-serif;
+  font-size: 3em;
+}
+
+#menu-title h1 {
+  color: var(--white);
+  font-weight: 700;
+  font-family: "Lobster", "Work Sans", "Times New Roman", sans-serif;
+  font-size: 3em;
+}
+
+#menu-border {
+  width: 73vw;
+  height: auto;
+}
+
+#menu-main {
+  width: 70vw;
+  height: auto;
+}
+
+#menu-grid {
+  display: grid;
+  width: 600px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  row-gap: 25px;
+  justify-items: center;
+  align-items: flex-start;
+}
+
