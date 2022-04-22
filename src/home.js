@@ -24,9 +24,9 @@ const loadHome = () => {
   const imgGroup = document.createElement('img');
   const imgMap = document.createElement('img');
   imgGroup.id = "group-photo";
-  imgGroup.src = '/img/restaurant-group.jpg';
+  imgGroup.src = './img/restaurant-group.jpg';
   imgMap.id = "map-photo";
-  imgMap.src = '/img/restaurant-map.PNG';
+  imgMap.src = './img/restaurant-map.PNG';
 
   containerDiv.classList.add('flex');
   mainDiv.id = "main-content";
