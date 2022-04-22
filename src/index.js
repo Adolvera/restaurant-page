@@ -29,7 +29,7 @@ const checkToggle = (button) => {
   if (headerObject.contactButton.disabled === true) {
     headerObject.contactButton.disabled = false;
     headerObject.contactButton.classList.remove('on');
-    // contentDiv.removeChild(contactDiv);
+    contentDiv.removeChild(contactDiv);
   }
 
   if (button === headerObject.homeButton) {
@@ -45,7 +45,7 @@ const checkToggle = (button) => {
   }
 
   if (button === headerObject.contactButton) {
-    // contentDiv.appendChild(contactDiv);
+    contentDiv.appendChild(contactDiv);
     headerObject.contactButton.classList.add('on');
     headerObject.contactButton.disabled = true;
   }
