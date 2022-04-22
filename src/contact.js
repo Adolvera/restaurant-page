@@ -3,9 +3,9 @@ const loadContact = () => {
   const titleBorder = document.createElement('div');
   const titleDiv = document.createElement('div');
   const h1Title = document.createElement('h1');
-  const restaurantContact = makeContact("./img/restaurant-contact.jpg", "Eddie's Subs", "Tel: 123-456-2097", "Email: eddiessubs@gmail.com");
-  const gusContact = makeContact("./img/gus-manager.jpg", "Gus Fring (Owner)", "Tel: 345-134-2521", "Email: polloloco@gmail.com");
-  const saulContact = makeContact("./img/saul-owner.jpg", "Saul Goodman (Manager)", "Tel: 524-241-1525", "Email: itsallgoodman@gmail.com");
+  const restaurantContact = makeContact("../img/restaurant-contact.jpg", "Eddie's Subs", "Tel: 123-456-2097", "Email: eddiessubs@gmail.com");
+  const gusContact = makeContact("../img/gus-manager.jpg", "Gus Fring (Owner)", "Tel: 345-134-2521", "Email: polloloco@gmail.com");
+  const saulContact = makeContact("../img/saul-owner.jpg", "Saul Goodman (Manager)", "Tel: 524-241-1525", "Email: itsallgoodman@gmail.com");
 
   mainDiv.id = "main-content";
   mainDiv.classList.add('flex');
