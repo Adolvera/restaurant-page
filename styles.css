@@ -69,7 +69,7 @@ header h1 {
 }
 
 #main-content {
-  background: url('./img/restaurant-background.png') no-repeat center center fixed;
+  background: url('img/restaurant-background.png') no-repeat center center fixed;
   background-size: cover;
   height: 100%;
 }
